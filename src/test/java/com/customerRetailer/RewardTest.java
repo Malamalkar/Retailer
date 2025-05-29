@@ -45,7 +45,8 @@ public class RewardTest {
     @Test
     void testPurchaseExactly100_Gives100Points() {
         int points = RewardService.calculatePoints(100);
-        assertEquals(100, points); // 1 point per dollar
+        assertEquals(100, points); // 1 point per dollarppp
+        
     }
 
     @Test
